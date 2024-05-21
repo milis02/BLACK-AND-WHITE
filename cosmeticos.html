@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> BLACK Y WHITE </title>
+
+<link rel ="C:\Users\plant\Documents\222.jpg" href= "OIP.JPEG">
+
+<link rel ="C:\Users\plant\Documents\222.jpg" href="OIP.JPG">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;                                                                                             
+            background-color: #FFCDD2; /* Light green background */
+            color: #333;
+        }
+        header {
+            background-color: #FFEOB2; /* Dark green */
+            color: #fff;
+            padding: 20px 40px;
+            text-align: center;
+        }
+        nav {
+            background-color: #E1BEE7; /* Medium green */
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        nav button {
+            background: none;
+            border: none;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            font-family: 'Noto Serif SC', serif; /* Serif font for buttons */
+        }
+        nav button:hover {
+            background-color: #CE93D8; /* Lighter green */
+        }
+        .content {
+            display: none;
+            padding: 20px;
+            margin: 10px 30px;
+            background-color: #EDE7F6; /* White background for content */
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        .content.active {
+            display: block;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #262525; /* Dark green */
+            color: white;
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const buttons = document.querySelectorAll('nav button');
+            const contents = document.querySelectorAll('.content');
+
+            function activateContent(section) {
+                contents.forEach(content => {
+                    content.style.display = content.id === section ? 'block' : 'none';
+                });
+                buttons.forEach(button => {
+                    button.classList.toggle('active', button.dataset.section === section);
+                });
+            }
+
+            buttons.forEach(button => {
+                button.addEventListener('click', () => activateContent(button.dataset.section));
+            });
+
+            // Activate the first section by default
+            activateContent('introduction');
+        });
+    </script>
+</head>
+<body>
+    <header>
+<img src="C:\Users\plant\Documents\222.jpg"  alt="IMAGEN" WIDTH="100" HEIGHT="90" align="left"> 
+<img src="C:\Users\plant\Documents\111.jpeg" alt="IMAGEN" WIDTH="100" HEIGHT="90" align="right">
+
+        <h1> BLACK AND WHITE </h1>
+        <h> SUCURSAL 1 </h>
+    </header>
+    <nav>
+         <button data-section="ORIGIN"> MAQUILLAJE </button>
+        <button data-section="WHAT IS IT?"> ROPA </button>
+        <button data-section="REPRESENTATIVES"> PAQUETES DE REGALO VIP </button>
+        <button data-section="CONSEQUENCES"> CONSULTA DE VENTAS </button>
+        
+
+    </nav>
+
+
+    <div id="ORIGIN" class="content active">
+        <h2> MAQUILLAJE </h2>
+        <CENTER>
+        <p> Bienvenido a nuestra tienda de maquillaje, donde la belleza se fusiona con la calidad y la salud de tu piel. Nos enorgullece presentarte nuestra exclusiva línea de productos de maquillaje de origen coreano, reconocidos por su excelencia y cuidado dermatológico. Nuestro compromiso es ofrecerte productos de alta calidad que realcen tu belleza natural sin comprometer la salud de tu piel. </p>
+        <CENTER>
+
+
+   <h1> MODELOS QUE CONTAMOS  </h1>
+
+<h1> ILUMINADORES </h1>
+
+<CENTER>
+<TD><IMG SRC="C:\Users\plant\Downloads\1.22.jpg".JPG WIDHT= "50" HEIGHT = "50" > <CENTER><P> <H2> ILUMINADOR </H2>  </TD>
+<TD><IMG SRC="C:\Users\plant\Downloads\1.3}.jpg".JPG WIDHT= "50" HEIGHT = "50" > <CENTER><P> <H2> ILUMINADOR </H2>  </TD>
+<TD><IMG SRC="C:\Users\plant\Downloads\1.4.jpg".JPG WIDHT= "50" HEIGHT = "50" > <CENTER><P> <H2> ILUMINADOR </H2>  </TD>
+<TR>
+<CENTER><P> <H2> Piezas :4
+  </H2> </TD>
+<TR>
+<CENTER><P> <H2> PRECIO: 50 PESOS </H2> </TD>
+<TR>
+<CENTER><P> <H2> COLORES DISPONIBLES: PlATEADO,DORADO,ROSA y BLANCO   </H2> </TD>
+
+<h1> LABIALES  </h1>
+
+<TD><IMG SRC="C:\Users\plant\Downloads\1.54.jpg".JPG WIDHT= "50" HEIGHT = "50" > <CENTER><P> <H2> LABIAL </H2>  </TD>
+<CENTER><P> <H2> COLOR: 05 R  </H2> </TD>
+<TD><IMG SRC="C:\Users\plant\Downloads\1.7.jpg".JPG WIDHT= "50" HEIGHT = "50" > <CENTER><P> <H2> LABIAL </H2>  </TD>
+<CENTER><P> <H2> COLOR: 02 R  </H2> </TD>
+<TD><IMG SRC="C:\Users\plant\Downloads\1.6.jpg".JPG WIDHT= "50" HEIGHT = "50" > <CENTER><P> <H2> LABIAL </H2>  </TD>
+<CENTER><P> <H2> COLOR:01  R  </H2> </TD>
+<TD><IMG SRC="C:\Users\plant\Downloads\1.3.jpg".JPG WIDHT= "50" HEIGHT = "50" > <CENTER><P> <H2> LABIAL </H2>  </TD>
+<CENTER><P> <H2> COLOR: 06 R  </H2> </TD>
+<CENTER><P> <H2> Piezas: 1 </H2> </TD>
+<TR>
+<CENTER><P> <H2> PRECIO: 70 PESOS </H2> </TD>
+<TR>
+<CENTER><P> <H2> COLORES DISPONIBLES: 6  R  </H2> </TD>
+
+<h1> RUBOR  </h1>
+<TD><IMG SRC="C:\Users\plant\Downloads\R1.jpg".JPG WIDHT= "100" HEIGHT = "50" > <CENTER><P> <H2> RUBOR </H2>  </TD>
+<TD><IMG SRC="C:\Users\plant\Downloads\WhatsApp Image 2024-05-17 at 12.13.38 PM.jpeg".JPG WIDHT= "50" HEIGHT = "50" > <CENTER><P> <H2> RUBOR </H2>  </TD>
+<TD><IMG SRC="C:\Users\plant\Downloads\WhatsApp Image 2024-05-17 at 12.13.50 PM.jpeg".JPG WIDHT= "50" HEIGHT = "50" > <CENTER><P> <H2> RUBOR </H2>  </TD>
+<TR>
+<CENTER><P> <H2> PIEZAS: 4  </H2> </TD>
+<TR>
+<CENTER><P> <H2> PRECIO: 80 PESOS </H2> </TD>
+<TR>
+<CENTER><P> <H2> COLORES DISPONIBLES:  ROSA, CORAL, NARANJA, ROJO  </H2> </TD>
+
+<h1> DELINEADOR </h1>
+<TD><IMG SRC="C:\Users\plant\Downloads\WhatsApp Image 2024-05-17 at 12.24.03 PM.jpeg".JPG WIDHT= "50" HEIGHT = "50" > <CENTER><P> <H2> DELINEADOR </H2>  </TD>
+<TR>
+<CENTER><P> <H2> PIEZAS: 1 </H2> </TD>
+<TR>
+<CENTER><P> <H2> PRECIO: 60 </H2> </TD>
+<TR>
+<CENTER><P> <H2> COLORES DISPONIBLES:  NEGRO  </H2> </TD> 
+
+<h1> RIMEL </h1>
+<TD><IMG SRC="C:\Users\plant\Downloads\WhatsApp Image 2024-05-17 at 12.33.50 PM.jpeg".JPG WIDHT= "50" HEIGHT = "50" > <CENTER><P> <H2> RIMEL </H2>  </TD>
+<TD><IMG SRC="C:\Users\plant\Downloads\WhatsApp Image 2024-05-17 at 12.39.55 PM.jpeg".JPG WIDHT= "50" HEIGHT = "50" > <CENTER><P> <H2> RIMEL </H2>  </TD>
+<CENTER><P> <H2> COLOR:  CAFE OBSCURO </H2> </TD>
+<TD><IMG SRC="C:\Users\plant\Downloads\WhatsApp Image 2024-05-17 at 12.40.18 PM.jpeg".JPG WIDHT= "50" HEIGHT = "50" > <CENTER><P> <H2>  RIMEL </H2>  </TD>
+<CENTER><P> <H2> COLOR:  NEGRO </H2> </TD>
+<TD><IMG SRC="C:\Users\plant\Downloads\WhatsApp Image 2024-05-17 at 12.40.33 PM.jpeg".JPG WIDHT= "50" HEIGHT = "50" > <CENTER><P> <H2> RIMEL </H2>  </TD>
+<CENTER><P> <H2> COLOR: CAFE CASTAÑO </H2> </TD>
+<TR>
+<CENTER><P> <H2> Piezas: 3  </H2> </TD>
+<TR>
+<CENTER><P> <H2> PRECIO: 50 PESOS </H2> </TD>
+<TR>
+
+
+    </div>
+
+     <div id="WHAT IS IT?" class="content">
+        <h2> NUEVOS </h2>
+        <p>
+<h1> BLUSA RIBETE EN CONTRASTE DE HOMBROS ABIERTOS</h1>
+<CENTER>
+<TD><IMG SRC="C:\Users\plant\Downloads\WhatsApp Image 2024-05-17 at 1.16.46 PM.jpeg".JPG WIDHT= "50" HEIGHT = "50" > <CENTER><P> <H2> BLUSA </H2>  </TD>
+<TD><IMG SRC="C:\Users\plant\Downloads\WhatsApp Image 2024-05-17 at 1.16.46 PM (1).jpeg".JPG WIDHT= "50" HEIGHT = "50" > <CENTER><P> <H2> BLUSA  </H2>  </TD>
+<CENTER><P> <H2> COLOR :  BLANCO  </H2> </TD>
+<TD><IMG SRC="C:\Users\plant\Downloads\WhatsApp Image 2024-05-17 at 1.16.46 PM (2).jpeg".JPG WIDHT= "50" HEIGHT = "50" > <CENTER><P> <H2> HOMBROS ABIERTOS  </H2>  </TD>
+<CENTER><P> <H2> COLOR :  AZUL </H2> </TD>
+<TD><IMG SRC="C:\Users\plant\Downloads\WhatsApp Image 2024-05-17 at 1.16.46 PM (3).jpeg".JPG WIDHT= "50" HEIGHT = "50" > <CENTER><P> <H2> BLUSA  </H2>  </TD>
+<CENTER><P> <H2> COLOR :  ROSA </H2> </TD>
+<TD><IMG SRC="C:\Users\plant\Downloads\WhatsApp Image 2024-05-17 at 1.16.46 PM (4).jpeg".JPG WIDHT= "50" HEIGHT = "50" > <CENTER><P> <H2> BLUSA  </H2>  </TD>
+<CENTER><P> <H2> COLOR :  NEGRO </H2> </TD>
+<TD><IMG SRC="C:\Users\plant\Downloads\WhatsApp Image 2024-05-17 at 1.16.47 PM.jpeg".JPG WIDHT= 50" HEIGHT = "50" > <CENTER><P> <H2> BLUSA EN HOMBROS ABIERTOS  </H2>  </TD>
+<TR>
+<CENTER><P> <H2> TALLAS: CH M G EX  </H2> </TD>
+<TR>
+<CENTER><P> <H2> PRECIO: 550 PESOS </H2> </TD>
+<TR>
+<CENTER><P> <H2> COLORES DISPONIBLES  </H2> </TD>
+<CENTER><P> <H2> PIEZAS: 1  </H2> </TD>
+
+<h1> BLUSA HOMBROS DESCUBIERTOS CON MANGAS</h1>
+<TD><IMG SRC="C:\Users\plant\Downloads\WhatsApp Image 2024-05-17 at 2.28.08 PM.jpeg".JPG WIDHT= "50" HEIGHT = "50" > <CENTER><P> <H2> BLUSA  </H2>  </TD>
+<CENTER><P> <H2> COLOR: NEGRO  </H2> </TD>
+<TD><IMG SRC="C:\Users\plant\Downloads\WhatsApp Image 2024-05-17 at 2.28.08 PM (1).jpeg".JPG WIDHT= "50" HEIGHT = "50" > <CENTER><P> <H2> BLUSA  </H2>  </TD>
+<CENTER><P> <H2> COLOR: OXIDO MARRON  </H2> </TD>
+<TD><IMG SRC="C:\Users\plant\Downloads\WhatsApp Image 2024-05-17 at 2.28.08 PM (2).jpeg".JPG WIDHT= "50" HEIGHT = "50" > <CENTER><P> <H2> BLUSA  </H2>  </TD>
+<CENTER><P> <H2> COLOR: MARRON </H2> </TD>
+<TD><IMG SRC="C:\Users\plant\Downloads\WhatsApp Image 2024-05-17 at 2.28.09 PM.jpeg".JPG WIDHT= "50" HEIGHT = "50" > <CENTER><P> <H2> BLUSA  </H2>  </TD>
+<CENTER><P> <H2> COLOR: ALBARICOQUE  </H2> </TD>
+<TD><IMG SRC="C:\Users\plant\Downloads\WhatsApp Image 2024-05-17 at 2.28.09 PM (1).jpeg".JPG WIDHT= "50" HEIGHT = "50" > <CENTER><P> <H2> BLUSA  </H2>  </TD>
+<CENTER><P> <H2> COLOR: GRIS CLARO  </H2> </TD>
+<TR>
+<CENTER><P> <H2> TALLAS: CH M EX  </H2> </TD>
+<TR>
+<CENTER><P> <H2> PRECIO: 320 PESOS </H2> </TD>
+<TR>
+<CENTER><P> <H2> COLORES DISPONIBLES </H2> </TD>
+<CENTER><P> <H2> PIEZAS: 1 </H2> </TD>
+
+<h1> CHAQUETA ABRIGO CON DOBLE BOTON Y SOLAPA MUESCADS</h1>
+<TD><IMG SRC="C:\Users\plant\Downloads\WhatsApp Image 2024-05-17 at 2.45.50 PM.jpeg".JPG WIDHT= "50" HEIGHT = "50" > <CENTER><P> <H2> ABRIGO DOBLE BOTON </H2>  </TD>
+<TD><IMG SRC="C:\Users\plant\Downloads\WhatsApp Image 2024-05-17 at 2.45.50 PM (1).jpeg".JPG WIDHT= "50" HEIGHT = "50" > <CENTER><P> <H2> ABRIGO C/SOLAPA MUESCADA</H2>  </TD>
+<TR>
+<CENTER><P> <H2> TALLAS: CH M G EX 2017  </H2> </TD>
+<TR>
+<CENTER><P> <H2> PRECIO: 590 PESOS </H2> </TD>
+<TR>
+<CENTER><P> <H2> COLOR UNICO </H2> </TD>
+<CENTER><P> <H2> PIEZAS: 1 </H2> </TD>
+
+
+<h1> ABRIGO DE TRINCHERA DOBLE BOTON CON CINTURON</h1>
+<TD><IMG SRC="C:\Users\plant\Downloads\WhatsApp Image 2024-05-17 at 2.52.17 PM.jpeg".JPG WIDHT= "50" HEIGHT = "50" > <CENTER><P> <H2> ABRIGO DOBLE BOTON </H2>  </TD>
+<TD><IMG SRC="C:\Users\plant\Downloads\WhatsApp Image 2024-05-17 at 2.52.17 PM (1).jpeg".JPG WIDHT= "50" HEIGHT = "50" > <CENTER><P> <H2> ABRIGO CON CINTURON </H2>  </TD>
+<TD><IMG SRC="C:\Users\plant\Downloads\WhatsApp Image 2024-05-17 at 2.52.28 PM.jpeg".JPG WIDHT= "50" HEIGHT = "50" > <CENTER><P> <H2> DOBLE BOTON Y CINTURON </H2>  </TD>
+<TR>
+<CENTER><P> <H2> TALLAS: XS CH M G EX  </H2> </TD>
+<TR>
+<CENTER><P> <H2> PRECIO: 940 PESOS </H2> </TD>
+<TR>
+<CENTER><P> <H2> COLOR UNICO </H2> </TD>
+<CENTER><P> <H2> PIEZAS: 1 </H2> </TD>
+
+<h1> CONJUNTO DE DOS PIEZAS </h1>
+<TD><IMG SRC="C:\Users\plant\Downloads\WhatsApp Image 2024-05-17 at 3.01.20 PM.jpeg".JPG WIDHT= "50" HEIGHT = "50" > <CENTER><P> <H2> CONJUNTO </H2>  </TD>
+<TD><IMG SRC="C:\Users\plant\Downloads\WhatsApp Image 2024-05-17 at 3.01.21 PM.jpeg".JPG WIDHT= "50" HEIGHT = "50" > <CENTER><P> <H2> DOS PIEZAS </H2>  </TD>
+<TD><IMG SRC="C:\Users\plant\Downloads\WhatsApp Image 2024-05-17 at 3.01.20 PM (1).jpeg".JPG WIDHT= "50" HEIGHT = "50" > <CENTER><P> <H2> CON RESORTE </H2>  </TD>
+<TR>
+<CENTER><P> <H2> TALLAS:  CH M G EX  </H2> </TD>
+<TR>
+<CENTER><P> <H2> PRECIO: 340 PESOS </H2> </TD>
+<TR>
+<CENTER><P> <H2> COLOR NEGRO </H2> </TD>
+<CENTER><P> <H2> PIEZAS: 2 </H2> </TD>
+
+
+
+
+    </div>
+
+    <div id="REPRESENTATIVES" class="content">
+          <h3> PROMOCIONES Y REGALOS EN PRUDUCTOS EXCLUSIVOS PARA VIPS 2024</h3>
+                <p>
+<TD><IMG SRC="C:\Users\plant\Downloads\WhatsApp Image 2024-05-17 at 3.05.33 PM.jpeg".JPG WIDHT= "50" HEIGHT = "50">  </TD>
+    <IMG SRC="C:\Users\plant\Downloads\WhatsApp Image 2024-05-17 at 3.12.18 PM (1).jpeg".JPG WIDHT= "50" HEIGHT = "50">  </TD>
+    <IMG SRC="C:\Users\plant\Downloads\WhatsApp Image 2024-05-17 at 2.22.40 PM.jpeg".JPG WIDHT= "50" HEIGHT = "50">  </TD>
+<BR>
+    <IMG SRC="C:\Users\plant\Downloads\WhatsApp Image 2024-05-17 at 3.09.33 PM (1).jpeg".JPG WIDHT= "50" HEIGHT = "50">  </TD>
+    <IMG SRC="C:\Users\plant\Downloads\WhatsApp Image 2024-05-17 at 3.15.11 PM (1).jpeg".JPG WIDHT= "50" HEIGHT = "50">  </TD>
+    <IMG SRC="C:\Users\plant\Downloads\WhatsApp Image 2024-05-17 at 3.33.30 PM.jpeg".JPG WIDHT= "50" HEIGHT = "50">  </TD>
+
+          </p>
+           </div>
+
+
+    <div id="CONSEQUENCES" class="content">
+        <h2>  </h2>
+<p>
+<CENTER>
+<div class="col-md-10 col-md-offset-1 text-center"> 			
+<h2 class="h1 margin-bottom-x">
+    <strong>PLANES DE VENTA </strong>
+</h2> 				
+<hr class="border-cta"> 				
+<p class="lead">
+<H2>"¡Descubre una nueva forma de disfrutar de la belleza con nuestros productos de maquillaje coreanos de alta calidad! En nuestra tienda, no solo te ofrecemos una amplia gama de productos excepcionales, sino que también te brindamos la oportunidad de acceder a ellos a través de nuestros convenientes planes de financiamiento. Ahora, puedes disfrutar de la excelencia de la cosmética coreana y cuidar tu piel con productos de primera categoría, sin preocuparte por el desembolso inicial. Con nuestros planes de financiamiento flexibles y accesibles, la belleza y el cuidado de tu piel están al alcance de tu mano. ¡Embárcate en un viaje de belleza y bienestar sin preocupaciones con nuestros productos y opciones de financiamiento!"<H2></p> 				
+<p class="lead">BLACK Y WHITE ofrece planes de financiamiento a tu medida para estrenar un Producto. Para más información consulta con uno de nuestros asesores.</p>
+
+<CENTER> 			
+<hr class="border-cta"> 				
+<p class="lead">
+  <div class="col-md-10 col-md-offset-1 text-center">
+  <h3 class="h1 margin-bottom-x">
+    <strong> COTIZACION RAPIDA </strong>
+</h3> 	
+
+   </div>
+<form name="inventoryContactForm" id="inventoryContactForm" method="post" data-dotagging-event="form_engagement" data-dotagging-event-action="click" data-dotagging-product-name="Website|Inventory Contact Us Widget" data-dotagging-event-action-result="" data-dotagging-comm-type="form" data-dotagging-form-name="Website - Inventory Contact Us Widget" data-dotagging-form-type="consumer_contact" data-dotagging-comm-status="" data-dotagging-comm-item-conditon="new" data-dotagging-department="sales" novalidate="novalidate" data-dotagging-element-type="form" class="track-everything track-everything-default track-everything-form">   <div class="row margin-bottom_5x">    
+<div class="form-group">     
+<div class="col-sm-6 firstName"> 
+     
+<label class="control-label" for="inventoryContactFirstName">       NOMBRE/S :      </label>      
+<input type="text" class="form-control stat-input-field" id="inventoryContactFirstName" name="FirstName" data-dlron-type="firstname" data-loc="contact us" required="" placeholder="NOMBRES" autocomplete="given-name" style="text-transform: capitalize;" data-dotagging-element-order="0">     
+</div> 
+    
+<div class="col-sm-6 lastName">      
+<label class="control-label" for="inventoryContactLastName"> APELLIDO PATERNO : </label>   
+<input type="text" class="form-control stat-input-field" id="inventoryContactLastName" name="LastName" data-dlron-type="lastname" data-loc="contact us" required="" placeholder="APELLIDO" autocomplete="family-name" style="text-transform: capitalize;" data-dotagging-element-order="1">     
+</div>  
+      
+ <div class="col-sm-6 mothersLastName">     
+<label for="MothersLastName" class="control-label"> APELLIDO MATERNO : </label>   
+<input type="text" class="form-control stat-input-field" id="MothersLastName" name="MothersLastName" data-dlron-type="motherslastname" data-loc="" data-dlron-ext="true" required="" placeholder="APELLIDO MATERNO" autocomplete="mothers-family-name" style="text-transform: capitalize;" data-dotagging-element-order="2">  
+         </div>     
+       </div>   
+     </div>   
+<div class="row margin-bottom_5x">    <div class="col-sm-12">     
+<button type="submit" id="inventoryContactSubmit" name="Submit" class="btn btn-cta stat-button-link" data-loc="contact us">      Enviar     </button>    
+    </div>   
+</div>
+
+  <BR>
+
+
+    <footer>
+        <p>&copy; COLEGIO DE BACHILLES DEL ESTADO DE TLAXCALA ,PLNTEL 01</p>
+        <p>&copy; MARISELA MORALES PLUMA  01</p>
+        <p>&copy; PAGINAS WEB</p>
+        <p>&copy; TIENDA COREANA</p>
+        <p>&copy; MILAGROS NOPHAL LOZADA <BR>
+                  KELLY ADALY RAZO MELENDEZ <BR>
+                  FATIMA ROMERO HERNANDEZ <BR></p>
+    </footer>
+</body>
+</html>
